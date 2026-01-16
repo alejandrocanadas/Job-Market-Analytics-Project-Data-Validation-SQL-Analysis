@@ -38,6 +38,43 @@ from **raw CSV files** → **database design** → **data loading** → **busine
 
 ---
 
+# Insights
+The analysis of the Data Analyst job market reveals several key insights based on the results of the five SQL queries executed in this project.
+
+## 1. The highest-paying Data Analyst roles are not traditional analyst positions  
+The top 20 highest-paying jobs include titles such as Senior Director of Data, Research Scientist, Director of Analytics, and Head of Data Analytics. These roles command high salaries because they require a combination of leadership responsibilities and advanced technical expertise. Companies such as OpenAI, Meta, AT&T, Google, Tinder, and Disney dominate the list of top-paying employers.
+
+## 2. The skills required for the top-paying roles are highly specialized  
+The skills extracted for these top 20 roles show a clear emphasis on advanced, engineering-oriented tools and technologies. Skills such as Oracle, Kafka, Linux, Git, Spark, Airflow, Snowflake, and BigQuery frequently appear among the highest-paying positions. While foundational skills like SQL, Python, R, and Excel remain present, the best-paying roles lean heavily toward infrastructure, cloud, and advanced analytical engineering.
+
+## 3. The overall job market demands foundational analytics skills at massive scale  
+When examining the most in-demand skills across the entire Data Analyst job market, SQL, Excel, Python, Tableau, and Power BI dominate by a large margin. SQL alone appears in over 92,000 job postings. This indicates that foundational analytical skills remain the most critical requirement for employability and are essential for entering the field or securing mid-level roles.
+
+## 4. The highest-paying individual skills are niche and appear infrequently  
+Skills such as SVN, Solidity, Couchbase, DataRobot, Golang, MXNet, VMware, and Terraform show extremely high average salaries. However, they appear in a very small number of job postings. These skills tend to belong more to software engineering, DevOps, or advanced machine learning engineering roles. Their high compensation reflects specialization rather than broad demand.
+
+## 5. Optimal skills show a balance of strong salary and moderate demand, but remain far less common than foundational skills  
+The skills identified as most optimal (those with both high demand and above-average salary) include Spark, GCP, Airflow, Linux, Scala, MongoDB, TensorFlow, and Pyspark. These skills achieve strong salaries and appear consistently across postings, but still in relatively low numbers. Even the most frequently appearing optimal skill, Spark, shows fewer than 200 postings, compared to SQL with more than 92,000. This indicates that optimal skills are valuable differentiators but do not replace the importance of core analytical tools.
+
+# Visualizations
+
+## Top 20 Highest-Paying Data Analyst Roles
+![Top 20 Salaries](./assets/top20_h.png)
+
+## Skills Required in Top 20 Highest-Paying Jobs
+![Top 20 Skills](./assets/skills_top20_h.png)
+
+## Most In-Demand Skills
+![Most In-Demand Skills](./assets/demand_h.png)
+
+## Highest-Paying Skills
+![Highest Paying Skills](./assets/highpay_h.png)
+
+## Optimal Skills — Salary vs Demand
+![Optimal Skills Scatter Plot](./assets/optimal_scatter.png) 
+
+---
+
 # The Analysis
 
 This project was aimed to investigate specific aspects of the data analyst job market and it answered the following questions:
@@ -159,40 +196,6 @@ This project was aimed to investigate specific aspects of the data analyst job m
     LIMIT 10;
    ```
 ---
-# What I Learned
-
-## Top 20 Highest-Paying Data Analyst Roles
-![Top 20 Salaries](./assets/top20_h.png)
-
-## Skills Required in Top 20 Highest-Paying Jobs
-![Top 20 Skills](./assets/skills_top20_h.png)
-
-## Most In-Demand Skills
-![Most In-Demand Skills](./assets/demand_h.png)
-
-## Highest-Paying Skills
-![Highest Paying Skills](./assets/highpay_h.png)
-
-## Optimal Skills — Salary vs Demand
-![Optimal Skills Scatter Plot](./assets/optimal_scatter.png) 
-
-# Conclusions
-The analysis of the Data Analyst job market reveals several key insights based on the results of the five SQL queries executed in this project.
-
-## 1. The highest-paying Data Analyst roles are not traditional analyst positions  
-The top 20 highest-paying jobs include titles such as Senior Director of Data, Research Scientist, Director of Analytics, and Head of Data Analytics. These roles command high salaries because they require a combination of leadership responsibilities and advanced technical expertise. Companies such as OpenAI, Meta, AT&T, Google, Tinder, and Disney dominate the list of top-paying employers.
-
-## 2. The skills required for the top-paying roles are highly specialized  
-The skills extracted for these top 20 roles show a clear emphasis on advanced, engineering-oriented tools and technologies. Skills such as Oracle, Kafka, Linux, Git, Spark, Airflow, Snowflake, and BigQuery frequently appear among the highest-paying positions. While foundational skills like SQL, Python, R, and Excel remain present, the best-paying roles lean heavily toward infrastructure, cloud, and advanced analytical engineering.
-
-## 3. The overall job market demands foundational analytics skills at massive scale  
-When examining the most in-demand skills across the entire Data Analyst job market, SQL, Excel, Python, Tableau, and Power BI dominate by a large margin. SQL alone appears in over 92,000 job postings. This indicates that foundational analytical skills remain the most critical requirement for employability and are essential for entering the field or securing mid-level roles.
-
-## 4. The highest-paying individual skills are niche and appear infrequently  
-Skills such as SVN, Solidity, Couchbase, DataRobot, Golang, MXNet, VMware, and Terraform show extremely high average salaries. However, they appear in a very small number of job postings. These skills tend to belong more to software engineering, DevOps, or advanced machine learning engineering roles. Their high compensation reflects specialization rather than broad demand.
-
-## 5. Optimal skills show a balance of strong salary and moderate demand, but remain far less common than foundational skills  
-The skills identified as most optimal (those with both high demand and above-average salary) include Spark, GCP, Airflow, Linux, Scala, MongoDB, TensorFlow, and Pyspark. These skills achieve strong salaries and appear consistently across postings, but still in relatively low numbers. Even the most frequently appearing optimal skill, Spark, shows fewer than 200 postings, compared to SQL with more than 92,000. This indicates that optimal skills are valuable differentiators but do not replace the importance of core analytical tools.
 
 ## Summary
 
